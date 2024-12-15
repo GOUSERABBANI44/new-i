@@ -1,4 +1,5 @@
-a = 12
-b = 12
-result = (a != b)
+a = 10
+b = 15
+
+result = (a == b) or (a > b)
 print(result)

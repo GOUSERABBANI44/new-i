@@ -1,4 +1,6 @@
 a = 10
-b = 12
-result = (a == b)
+b = 15
+c = 20
+
+result = (a < b) and (b > c)
 print(result)
